@@ -1,8 +1,9 @@
+export { Stack };
 class Stack {
   constructor() {
     this.size = 0;
     this.stack = []; //initialy stack will empty;
-    this.buffer = 5; //this help to over come fron stack overcome or under flow;
+    this.buffer = 5; //this help to overcome fron stack overflow or underflow;
   }
   //when click resent button then stack will stack will empty
   clear() {
